@@ -1,7 +1,7 @@
-<?php namespace Juy\Profiler\Providers;
+<?php namespace Ericmagnuson\Profiler\Providers;
 
 use Illuminate\Support\ServiceProvider;
-use Juy\Profiler\Facades\Profiler;
+use Ericmagnuson\Profiler\Facades\Profiler;
 
 class ProfilerServiceProvider extends ServiceProvider {
 
@@ -23,7 +23,7 @@ class ProfilerServiceProvider extends ServiceProvider {
 	 */
 	public function boot()
 	{
-		$this->package('juy/profiler');
+		$this->package('ericmagnuson/profiler');
 	}
 
 	/**
@@ -50,8 +50,8 @@ class ProfilerServiceProvider extends ServiceProvider {
 	{
 		$this->app['profiler'] = $this->app->share(function($app)
 		{
-			return new \Juy\Profiler\Profiler(
-				new \Juy\Profiler\Loggers\Time
+			return new \Ericmagnuson\Profiler\Profiler(
+				new \Ericmagnuson\Profiler\Loggers\Time
 			);
 		});
 	}
@@ -66,7 +66,7 @@ class ProfilerServiceProvider extends ServiceProvider {
 		$this->app->booting(function()
 		{
 			$loader = \Illuminate\Foundation\AliasLoader::getInstance();
-			$loader->alias('Profiler', 'Juy\Profiler\Facades\Profiler');
+			$loader->alias('Profiler', 'Ericmagnuson\Profiler\Facades\Profiler');
 		});
 	}
 
@@ -77,7 +77,7 @@ class ProfilerServiceProvider extends ServiceProvider {
 	 */
 	protected function loadConfig()
 	{
-		$this->app['config']->package('juy/profiler', __DIR__.'/../../../config');
+		$this->app['config']->package('ericmagnuson/profiler', __DIR__.'/../../../config');
 	}
 
 	/**

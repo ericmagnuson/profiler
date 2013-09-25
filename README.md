@@ -27,7 +27,7 @@ To add Profiler to your Laravel application, follow these three steps:
 Add the following to your `composer.json` file:
 
 ```json
-"juy/profiler" : "dev-master"
+"ericmagnuson/profiler" : "dev-master"
 ```
 
 Then, run `composer update` or `composer install` if you have not already installed packages.
@@ -35,13 +35,13 @@ Then, run `composer update` or `composer install` if you have not already instal
 Add the below line to the `providers` array in `app/config/app.php` configuration file (add at the end):
 
 ```php
-'Juy\Profiler\Providers\ProfilerServiceProvider',
+'Ericmagnuson\Profiler\Providers\ProfilerServiceProvider',
 ```
 
 Add the below line to the `aliases` array in `app/config/app.php` configuration file (add at the end):
 
 ```php
-'Profiler' => 'Juy\Profiler\Facades\Profiler',
+'Profiler' => 'Ericmagnuson\Profiler\Facades\Profiler',
 ```
 
 ## Configuration
@@ -49,7 +49,7 @@ Add the below line to the `aliases` array in `app/config/app.php` configuration 
 You will want to run the following command to publish the config to your application, otherwise it will be overwritten when the package is updated.
 
 ```shell
-php artisan config:publish juy/profiler
+php artisan config:publish ericmagnuson/profiler
 ```
 
 ### Profiler

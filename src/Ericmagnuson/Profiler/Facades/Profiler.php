@@ -1,4 +1,4 @@
-<?php namespace Juy\Profiler\Facades;
+<?php namespace Ericmagnuson\Profiler\Facades;
 
 use Illuminate\Support\Facades\Facade;
 

@@ -1,6 +1,6 @@
-<?php namespace Juy\Profiler;
+<?php namespace Ericmagnuson\Profiler;
 
-use Juy\Profiler\Loggers\Time;
+use Ericmagnuson\Profiler\Loggers\Time;
 
 class Profiler {
 

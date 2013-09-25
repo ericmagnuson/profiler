@@ -1,14 +1,14 @@
 {
-    "name": "juy/profiler",
+    "name": "ericmagnuson/profiler",
     "description": "A profiler for Laravel 4.",
     "keywords": ["laravel","profiler", "debug bar", "anbu"],
-    "homepage": "http://github.com/juy/profiler",
+    "homepage": "http://github.com/ericmagnuson/profiler",
     "license": "MIT",
     "authors": [
         {
-            "name": "Sevdin Filiz",
-            "email": "angelside@users.sourceforge.net",
-            "homepage": "http://juysoft.com",
+            "name": "Eric Magnuson",
+            "email": "ericmagnuson.me",
+            "homepage": "http://ericmagnuson.me",
             "role": "Developer"
         }
     ],
@@ -18,7 +18,7 @@
     },
     "autoload": {
         "psr-0": {
-            "Juy\\Profiler": "src/"
+            "Ericmagnuson\\Profiler": "src/"
         }
     },
     "minimum-stability": "dev"

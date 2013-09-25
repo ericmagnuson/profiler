@@ -1,4 +1,4 @@
-<?php namespace Juy\Profiler\Loggers;
+<?php namespace Ericmagnuson\Profiler\Loggers;
 
 class Time {
 
