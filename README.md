@@ -1,9 +1,6 @@
 # Profiler
 
-A profiler for Laravel 4. Backend based on sorora/omni, frontend based on loic-sharma/profiler, some features inspired by papajoker/profiler, some features original by myself.
-
-- [Profiler on Packagist](https://packagist.org/packages/juy/profiler)
-- [Profiler on GitHub](https://github.com/juy/profiler)
+This is an active fork of the now-abandoned [juy/profiler](https://github.com/juy/profiler).
 
 [![](https://dl.dropboxusercontent.com/u/76869590/laravel-package/juy-profiler.png)](https://dl.dropboxusercontent.com/u/76869590/laravel-package/juy-profiler.png "Click for big picture")
 
@@ -81,7 +78,7 @@ Profiler::disable();
 ### Custom Timers
 
 To start a timer, all you need to do is:
-    
+
 ```php
 Profiler::start('my timer key');
 ```
@@ -108,3 +105,8 @@ Log::emergency('Your message here');
 ```
 
 These are color-coded in the Logs part of the profiler – colors may change in future to more accurately reflect the log type.
+
+
+## Credit
+
+The backend is based on [sorora/omni](https://github.com/sorora/omni), and the frontend is based on [loic-sharma/profiler](https://github.com/loic-sharma/profiler).  Other features have been inspired by [juy/profiler](https://github.com/juy/profiler) and [papajoker/profiler](https://github.com/papajoker/profiler.
