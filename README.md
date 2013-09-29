@@ -6,7 +6,7 @@ This is an active fork of the recently-abandoned [juy/profiler](https://github.c
 
 ## What's New
 
-- Toggle Profiler by visiting yoursite.dev*/_profiler/toggle*
+- Toggle Profiler by visiting **yoursite.dev/_profiler/toggle**
 - Code, comment, and readme cleanup
 
 ## Features
