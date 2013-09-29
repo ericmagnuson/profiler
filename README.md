@@ -2,12 +2,12 @@
 
 This is an active fork of the recently-abandoned [juy/profiler](https://github.com/juy/profiler).
 
+[![](https://dl.dropboxusercontent.com/u/76869590/laravel-package/juy-profiler.png)](https://dl.dropboxusercontent.com/u/76869590/laravel-package/juy-profiler.png "Click for big picture")
+
 ## What's New
 
 - Toggle Profiler by visiting yoursite.dev*/_profiler/toggle*
 - Code, comment, and readme cleanup
-
-[![](https://dl.dropboxusercontent.com/u/76869590/laravel-package/juy-profiler.png)](https://dl.dropboxusercontent.com/u/76869590/laravel-package/juy-profiler.png "Click for big picture")
 
 ## Features
 
@@ -114,4 +114,4 @@ These are color-coded in the logs section of Profiler – colors may change in f
 
 - Backend based on [sorora/omni](https://github.com/sorora/omni)
 - Frontend based on [loic-sharma/profiler](https://github.com/loic-sharma/profiler)
-- Other features inspired by [juy/profiler](https://github.com/juy/profiler) and [papajoker/profiler](https://github.com/papajoker/profiler
+- Other features inspired by [juy/profiler](https://github.com/juy/profiler) and [papajoker/profiler](https://github.com/papajoker/profiler)
