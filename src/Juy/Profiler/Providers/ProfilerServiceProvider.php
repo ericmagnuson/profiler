@@ -24,6 +24,9 @@ class ProfilerServiceProvider extends ServiceProvider {
 	public function boot()
 	{
 		$this->package('juy/profiler');
+		
+		$this->activateProfiler();
+		$this->registerProfilerRouting();
 	}
 
 	/**
@@ -37,8 +40,6 @@ class ProfilerServiceProvider extends ServiceProvider {
 		$this->registerAlias();
 		$this->loadConfig();
 		$this->registerViews();
-		$this->activateProfiler();
-		$this->registerProfilerRouting();
 	}
 
 	/**
