@@ -2,6 +2,16 @@
 
 return array(
 
-	// Set to TRUE to enable profiling, FALSE to disable. NULL to listen to the app.debug value (default)
+	/*
+	|--------------------------------------------------------------------------
+	| Enable Profiler
+	|--------------------------------------------------------------------------
+	|
+	| If this is set to TRUE, the profiler will be enabled, and, if set to
+	| FALSE, it will be disabled. Alternatively, you can set this to NULL, and
+	| the profiler will refer to the 'debug' value in the app's main config.
+	|
+	*/
+
 	'profiler' => NULL
 );

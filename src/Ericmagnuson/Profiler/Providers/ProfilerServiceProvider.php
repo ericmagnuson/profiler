@@ -24,7 +24,7 @@ class ProfilerServiceProvider extends ServiceProvider {
 	public function boot()
 	{
 		$this->package('ericmagnuson/profiler');
-		
+
 		$this->activateProfiler();
 		$this->registerProfilerRouting();
 	}
