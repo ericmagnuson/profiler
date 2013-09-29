@@ -4,7 +4,7 @@ This is an active fork of the recently-abandoned [juy/profiler](https://github.c
 
 ## What's New
 
-- Toggle Profiler by visiting yoursite.dev*/_profiler/toggle*
+- Toggle Profiler by visiting **yoursite.dev/_profiler/toggle**
 - Code, comment, and readme cleanup
 
 [![](https://dl.dropboxusercontent.com/u/76869590/laravel-package/juy-profiler.png)](https://dl.dropboxusercontent.com/u/76869590/laravel-package/juy-profiler.png "Click for big picture")
