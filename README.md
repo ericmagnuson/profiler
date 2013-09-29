@@ -1,6 +1,11 @@
 # Profiler
 
-This is an active fork of the now-abandoned [juy/profiler](https://github.com/juy/profiler).
+This is an active fork of the recently-abandoned [juy/profiler](https://github.com/juy/profiler).
+
+## What's New
+
+- Toggle Profiler by visiting yoursite.dev*/_profiler/toggle*
+- Code, comment, and readme cleanup
 
 [![](https://dl.dropboxusercontent.com/u/76869590/laravel-package/juy-profiler.png)](https://dl.dropboxusercontent.com/u/76869590/laravel-package/juy-profiler.png "Click for big picture")
 
@@ -14,12 +19,11 @@ This is an active fork of the now-abandoned [juy/profiler](https://github.com/ju
 - Total execution time
     - Custom "checkpoints", see [this section](#custom-timers)
 - Total memory usage
-- Includes files (I don't think this is really needed)
+- Included files
 - All variables passed to views
 - Session variables
-- Laravel auth variables (Need to test)
+- Laravel auth variables
 - Sentry auth variables
-
 
 ## Installation
 To add Profiler to your Laravel application, follow these three steps:
@@ -54,14 +58,14 @@ php artisan config:publish ericmagnuson/profiler
 
 ### Profiler
 
-Set this option to `FALSE` to disable the profiler. By default, it is `NULL`, which makes the profiler refer to the app debug option in `config/app.php`.
+Set this option to `FALSE` to disable Profiler. By default, it is `NULL`, which makes the profiler refer to the app debug option in `config/app.php`.
 
 ```php
 // config.php
 'profiler' => NULL
 ```
 
-If you wish to disable the profiler during your application, just do:
+If you wish to disable Profiler during your application, just do:
 
 ```php
 Config::set('profiler::profiler', FALSE);
@@ -71,7 +75,7 @@ Config::set('profiler::profiler', FALSE);
 Profiler::disable();
 ```
 
->**Note::** This will only disable the output, it will still do it's background listening but will not output it to the browser.
+>**Note::** Profiler will still do its background listening but will not output it to the browser.
 
 ## Usage
 
@@ -104,9 +108,10 @@ Log::alert('Your message here');
 Log::emergency('Your message here');
 ```
 
-These are color-coded in the Logs part of the profiler – colors may change in future to more accurately reflect the log type.
-
+These are color-coded in the logs section of Profiler – colors may change in future to more accurately reflect the log type.
 
 ## Credit
 
-The backend is based on [sorora/omni](https://github.com/sorora/omni), and the frontend is based on [loic-sharma/profiler](https://github.com/loic-sharma/profiler).  Other features have been inspired by [juy/profiler](https://github.com/juy/profiler) and [papajoker/profiler](https://github.com/papajoker/profiler.
+- Backend based on [sorora/omni](https://github.com/sorora/omni)
+- Frontend based on [loic-sharma/profiler](https://github.com/loic-sharma/profiler)
+- Other features inspired by [juy/profiler](https://github.com/juy/profiler) and [papajoker/profiler](https://github.com/papajoker/profiler
